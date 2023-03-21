@@ -1,0 +1,510 @@
+{
+    "subServicesDropdown": {
+        "Consultation": [
+            {
+                "id": "1",
+                "dropdownName": "Dr. Chandler",
+                "unitrate": 100.0,
+                "quantity": 1,
+                "amount": "100.00"
+            }
+        ],
+        "Registration": [
+            {
+                "id": "2",
+                "dropdownName": "OPD card",
+                "unitrate": 100.0,
+                "quantity": 1,
+                "amount": "100.00"
+            }
+        ],
+        "Embriology": [
+            {
+                "id": "3",
+                "dropdownName": "IVF",
+                "unitrate": 100.0,
+                "quantity": 1,
+                "amount": "100.00"
+            },
+            {
+                "id": "4",
+                "dropdownName": "IUI",
+                "unitrate": 100.0,
+                "quantity": 1,
+                "amount": "100.00"
+            }
+        ],
+        "Andrology": [
+            {
+                "id": "5",
+                "dropdownName": "Semen Analysis",
+                "unitrate": 100.0,
+                "quantity": 1,
+                "amount": "100.00"
+            },
+            {
+                "id": "6",
+                "dropdownName": "Sperm Count",
+                "unitrate": 100.0,
+                "quantity": 1,
+                "amount": "100.00"
+            }
+        ]
+    },
+    "EmbryologyPatient": [
+        {
+            "id": 1,
+            "FormNo": "ET01",
+            "Name": "OPU-Ovum Pick Up ",
+            "UnitRate": 2000
+        },
+        {
+            "id": 2,
+            "FormNo": "ET02",
+            "Name": "Stimulation Ovarienne",
+            "UnitRate": 5000
+        },
+        {
+            "id": 3,
+            "FormNo": "ET03",
+            "Name": "Embryo Thawing",
+            "UnitRate": 3000
+        },
+        {
+            "id": 4,
+            "FormNo": "ET04",
+            "Name": "Embro Transfer",
+            "UnitRate": 7000
+        },
+        {
+            "id": 5,
+            "FormNo": "ET05",
+            "Name": "Embryo Freezing",
+            "UnitRate": 7000
+        }
+    ],
+    
+    "followup": {
+        "column": [
+            {
+                "name": "Sr. No"
+            },
+            {
+                "name": "UHID"
+            },
+            {
+                "name": "Patient Name"
+            },
+            {
+                "name": "Allotted Dr."
+            },
+            {
+                "name": "Follow Up Date"
+            },
+            {
+                "name": "Time"
+            }
+        ],
+        "row": [
+            {
+                "values": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": "2703792546"
+                    },
+                    {
+                        "value": "Rina Singh and Ravi Singh"
+                    },
+                    {
+                        "value": "Dr. Joee"
+                    },
+                    {
+                        "value": "10-03-2023"
+                    },
+                    {
+                        "value": "9:00am"
+                    }
+                ]
+            },
+            {
+                "values": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": "2703792546"
+                    },
+                    {
+                        "value": "Rina Singh and Ravi Singh"
+                    },
+                    {
+                        "value": "Dr. Joee"
+                    },
+                    {
+                        "value": "10-03-2023"
+                    },
+                    {
+                        "value": "9:00am"
+                    }
+                ]
+            },
+            {
+                "values": [
+                    {
+                        "value": 3
+                    },
+                    {
+                        "value": "2703792546"
+                    },
+                    {
+                        "value": "Rina Singh and Ravi Singh"
+                    },
+                    {
+                        "value": "Dr. Joee"
+                    },
+                    {
+                        "value": "10-03-2023"
+                    },
+                    {
+                        "value": "9:00am"
+                    }
+                ]
+            }
+        ]
+    },
+    "todaysPatient": {
+        "column": [
+            {
+                "name": "Sr. No"
+            },
+            {
+                "name": "UHID"
+            },
+            {
+                "name": "Patient Name"
+            },
+            {
+                "name": "Allotted Dr."
+            },
+            {
+                "name": "Follow Up Date"
+            },
+            {
+                "name": "Time"
+            }
+        ],
+        "row": [
+            {
+                "values": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": "2703792546"
+                    },
+                    {
+                        "value": "Rina Singh and Ravi Singh"
+                    },
+                    {
+                        "value": "Dr. Joee"
+                    },
+                    {
+                        "value": "10-03-2023"
+                    },
+                    {
+                        "value": "9:00am"
+                    }
+                ]
+            },
+            {
+                "values": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": "2703792546"
+                    },
+                    {
+                        "value": "Rina Singh and Ravi Singh"
+                    },
+                    {
+                        "value": "Dr. Joee"
+                    },
+                    {
+                        "value": "10-03-2023"
+                    },
+                    {
+                        "value": "9:00am"
+                    }
+                ]
+            },
+            {
+                "values": [
+                    {
+                        "value": 3
+                    },
+                    {
+                        "value": "2703792546"
+                    },
+                    {
+                        "value": "Rina Singh and Ravi Singh"
+                    },
+                    {
+                        "value": "Dr. Joee"
+                    },
+                    {
+                        "value": "10-03-2023"
+                    },
+                    {
+                        "value": "9:00am"
+                    }
+                ]
+            }
+        ]
+    },
+    "andrologyServicesList": {
+        "column": [
+            {
+                "name": "Sr.No."
+            },
+            {
+                "name": "Form No./Lab Code"
+            },
+            {
+                "name": "Test Name"
+            },
+            {
+                "name": "Unit Rate(Rs.)"
+            }
+        ],
+        "row": [
+            {
+                "values": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": "AT01"
+                    },
+                    {
+                        "value": "Serological Test-HIV,HCV"
+                    },
+                    {
+                        "value": 1000.00
+                    }
+                   
+                ]
+            },
+            {
+                "values": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": "AT02"
+                    },
+                    {
+                        "value": "serum Test-HIV,HCV"
+                    },
+                    {
+                        "value": 1000.00
+                    }
+                   
+                ]
+            },
+            {
+                "values": [
+                    {
+                        "value": 3
+                    },
+                    {
+                        "value": "AT03"
+                    },
+                    {
+                        "value": "serum Test-HIV,HCV"
+                    },
+                    {
+                        "value": 1000.00
+                    }
+                   
+                ]
+            }
+           
+        ]
+    },
+    "embriologyServicesList": {
+        "column": [
+            {
+                "name": "Sr.No."
+            },
+            {
+                "name": "Form No./Lab Code"
+            },
+            {
+                "name": "Test Name"
+            },
+            {
+                "name": "Unit Rate(Rs.)"
+            }
+        ],
+        "row": [
+            {
+                "values": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": "AT01"
+                    },
+                    {
+                        "value": "Serological Test-HIV,HCV"
+                    },
+                    {
+                        "value": 1000.00
+                    }
+                   
+                ]
+            },
+            {
+                "values": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": "AT02"
+                    },
+                    {
+                        "value": "serum Test-HIV,HCV"
+                    },
+                    {
+                        "value": 1000.00
+                    }
+                   
+                ]
+            },
+            {
+                "values": [
+                    {
+                        "value": 3
+                    },
+                    {
+                        "value": "AT03"
+                    },
+                    {
+                        "value": "serum Test-HIV,HCV"
+                    },
+                    {
+                        "value": 1000.00
+                    }
+                   
+                ]
+            }
+           
+        ]
+    },
+    "consultantstServices":{
+        "column":[
+            {
+                "name": "Sr. No"
+            },
+            {
+                "name": "Emp. No."
+            },
+            {
+                "name": "Name"
+            },
+            {
+                "name": "Designation"
+            },
+            {
+                "name": "Department"
+            },
+            {
+                "name": "Room No."
+            },
+            {
+                "name": "unit rate(Rs.)"
+            }
+        
+        ],
+        "row":[
+            {
+                "values": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": "MYHMS01"
+                    },
+                    {
+                        "value":" Dr. Chandler"
+                    },
+                    {
+                        "value": "RMO - IVF specialist"
+                    },
+                    {
+                        "value": "IVF"
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 2000.00
+                    }
+                ]
+            },
+            {
+                "values": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": "MYHMS01"
+                    },
+                    {
+                        "value":" Dr. Chandler"
+                    },
+                    {
+                        "value": "RMO - IVF specialist"
+                    },
+                    {
+                        "value": "IVF"
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 2000.00
+                    }
+                ]
+            },{
+                "values": [
+                    {
+                        "value": 3
+                    },
+                    {
+                        "value": "MYHMS01"
+                    },
+                    {
+                        "value":" Dr. Chandler"
+                    },
+                    {
+                        "value": "RMO - IVF specialist"
+                    },
+                    {
+                        "value": "IVF"
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 2000.00
+                    }
+                ]
+            }
+        ]
+
+    }
+}
